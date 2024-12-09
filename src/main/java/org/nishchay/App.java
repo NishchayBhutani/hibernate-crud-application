@@ -8,7 +8,7 @@ import java.util.List;
 
 public class App 
 {
-
+// SessionFactory is Hibernate specific, while EntityManager is a part of JPA.
 //    private SessionFactory sessionFactory;
     private EntityManagerFactory sessionFactory;
 
